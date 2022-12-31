@@ -1,4 +1,4 @@
-import asyncHandler from "../middleweare/asyncHandler.js";
+import asyncHandler from "../middleware/asyncHandler.js";
 import Recipe from "../models/Recipe.js";
 import Review from "../models/Review.js";
 import ErrorResponse from "../utils/errorResponse.js";

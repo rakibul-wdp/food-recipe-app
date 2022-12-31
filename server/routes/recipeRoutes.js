@@ -6,7 +6,7 @@ import {
   getRecipes,
   updateRecipe
 } from "../controllers/recipeController.js";
-import requireAuth from "../middleweare/requireAuth.js";
+import requireAuth from "../middleware/requireAuth.js";
 
 const router = express.Router({ mergeParams: true });
 

@@ -1,5 +1,5 @@
 import crypto from "crypto";
-import asyncHandler from "../middleweare/asyncHandler.js";
+import asyncHandler from "../middleware/asyncHandler.js";
 import User from "../models/User.js";
 import ErrorResponse from "../utils/errorResponse.js";
 import sendEmail from "../utils/sendEmail.js";

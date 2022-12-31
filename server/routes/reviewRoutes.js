@@ -6,7 +6,7 @@ import {
   getReviews,
   updateReview
 } from "../controllers/reviewController.js";
-import requireAuth from "../middleweare/requireAuth.js";
+import requireAuth from "../middleware/requireAuth.js";
 const router = express.Router({ mergeParams: true });
 
 router.route("/").get(getReviews).post(requireAuth, addReview);

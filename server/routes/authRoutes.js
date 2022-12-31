@@ -5,7 +5,7 @@ import {
   signUp, updateDetails,
   updatePassword
 } from "../controllers/authController.js";
-import requireAuth from "../middleweare/requireAuth.js";
+import requireAuth from "../middleware/requireAuth.js";
 
 // Include recipe router
 import recipeRouter from "./recipeRoutes.js";

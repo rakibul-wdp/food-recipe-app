@@ -1,4 +1,4 @@
-import asyncHandler from "../middleweare/asyncHandler.js";
+import asyncHandler from "../middleware/asyncHandler.js";
 import cloudinary from "../utils/cloudinary.js";
 import ErrorResponse from "../utils/errorResponse.js";
 

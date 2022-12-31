@@ -3,8 +3,8 @@ import {
   uploadAvatar,
   uploadRecipeImages
 } from "../controllers/uploadController.js";
-import uploadMiddleware from "../middleweare/multerUpload.js";
-import requireAuth from "../middleweare/requireAuth.js";
+import uploadMiddleware from "../middleware/multerUpload.js";
+import requireAuth from "../middleware/requireAuth.js";
 const router = express.Router();
 
 router.post(

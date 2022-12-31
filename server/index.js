@@ -10,7 +10,7 @@ import morgan from "morgan";
 import path from "path";
 import xss from "xss-clean";
 import connectDB from "./database/db.js";
-import errorHandler from "./middleweare/errorHandler.js";
+import errorHandler from "./middleware/errorHandler.js";
 
 // Env config
 dotenv.config();
