@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/layout/Footer";
 import ConfirmEmail from "./pages/ConfirmEmail";
 import EditRecipePage from "./pages/EditRecipe";
@@ -11,17 +11,19 @@ import SignupPage from "./pages/SignupPage";
 
 function App() {
   return (
-    <Router>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/login" component={LoginPage} />
-      <Route path="/signup" component={SignupPage} />
-      <Route exact path="/recipe/:id" component={RecipePage} />
-      <Route path="/recipe/:recipeId/edit" component={EditRecipePage} />
-      <Route path="/search/:term?/:page?" component={SearchPage} />
-      <Route path="/profile/:username/:recipeId?" component={ProfilePage} />
-      <Route path="/confirmemail/:token" component={ConfirmEmail} />
-      <Footer />
-    </Router>
+    <>
+      <Routes>
+        <Route exact path="/" element={<HomePage/>} />
+        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/signup" element={<SignupPage/>} />
+        <Route exact path="/recipe/:id" element={<RecipePage/>} />
+        <Route path="/recipe/:recipeId/edit" element={<EditRecipePage/>} />
+        <Route path="/search/:term?/:page?" element={<SearchPage/>} />
+        <Route path="/profile/:username/:recipeId?" element={<ProfilePage/>} />
+        <Route path="/confirmemail/:token" element={<ConfirmEmail/>} />
+      </Routes>
+        <Footer />
+    </>
   );
 }
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { signup } from "../../actions/authActions";
 import Alert from "../complements/Alert";
 import Loader from "../complements/Loader";
@@ -29,16 +29,16 @@ const Signup = () => {
   };
 
   // check for userinfo & redirect
-  const history = useHistory();
+  const navigate = useNavigate();
   useEffect(() => {
     if (userInfo) {
       if (redirect) {
-        history.push(redirect);
+        navigate(redirect);
       } else {
-        history.push(`/`);
+        navigate(`/`);
       }
     }
-  }, [history, userInfo]);
+  }, [navigate, userInfo]);
 
   return (
     <form onSubmit={signupHandler}>

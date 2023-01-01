@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { addToViewed, deleteRecipe } from "../../actions/recipeActions";
 
 const Recipe = ({ recipe, user }) => {
@@ -13,9 +13,9 @@ const Recipe = ({ recipe, user }) => {
   };
 
   // Handle update / redirect
-  const history = useHistory();
+  const navigate = useNavigate();
   const handleUpdate = (recipeId) => {
-    return history.push(`/recipe/${recipeId}/edit`);
+    return navigate(`/recipe/${recipeId}/edit`);
   };
 
   // Add to viewed

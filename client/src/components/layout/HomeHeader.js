@@ -1,18 +1,18 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { getUserDetails, logout } from "../../actions/authActions";
 
 const HomeHeader = () => {
   const [term, setTerm] = useState("");
 
-  const history = useHistory();
+  const navigate = useNavigate();
   const searchHandler = (e) => {
     e.preventDefault();
     if (term.trim()) {
-      history.push(`/search/${term}/`);
+      navigate(`/search/${term}/`);
     } else {
-      history.push("/");
+      navigate("/");
     }
   };
 

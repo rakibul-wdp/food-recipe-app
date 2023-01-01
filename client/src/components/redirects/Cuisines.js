@@ -4,35 +4,35 @@ const Cuisines = () => {
   const cuisines = [
     {
       name: "American",
-      img: "/images/cuisines/american.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571739/american_e2ezfu.webp",
     },
     {
       name: "Thai",
-      img: "/images/cuisines/moroccan.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571739/moroccan_u8xvuj.webp",
     },
     {
       name: "Spanish",
-      img: "/images/cuisines/spanish.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571740/spanish_ftcoix.webp",
     },
     {
       name: "Chinese",
-      img: "/images/cuisines/chinese.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571739/chinese_pa6yvc.webp",
     },
     {
       name: "French",
-      img: "/images/cuisines/french.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571739/french_ncprec.webp",
     },
     {
       name: "Japanese",
-      img: "/images/cuisines/japanese.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571739/japanese_bpyjhn.webp",
     },
     {
       name: "Indian",
-      img: "/images/cuisines/indian.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571739/indian_akxej4.webp",
     },
     {
       name: "Italian",
-      img: "/images/cuisines/italian.webp",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672571739/italian_bsampc.webp",
     },
   ];
   return (

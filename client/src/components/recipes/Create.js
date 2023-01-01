@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { createRecipe, updateRecipe } from "../../actions/recipeActions";
 import { uploadMultipleImages } from "../../actions/uploadActions";
 import { RECIPE_UPDATE_RESET } from "../../constants/recipeConstants";
@@ -131,7 +131,7 @@ const Create = ({ recipe }) => {
     }
   };
 
-  const history = useHistory();
+  const navigate = useNavigate();
   useEffect(() => {
     if (success) {
       setShowMessage(true);
@@ -156,7 +156,7 @@ const Create = ({ recipe }) => {
     }
 
     if (updateSuccess) {
-      history.push(`/profile/${recipe.user}`);
+      navigate(`/profile/${recipe.user}`);
       dispatch({ type: RECIPE_UPDATE_RESET });
     }
 
@@ -168,7 +168,7 @@ const Create = ({ recipe }) => {
     userInfo,
     success,
     recipe,
-    history,
+    navigate,
     updateSuccess,
     uploadSuccess,
     recipeImages,

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   deleteUserAccount, getUserDetails, sendConfirmationEmail, updateDetails,
   updatePassword
@@ -121,7 +121,7 @@ const Profile = () => {
   };
 
   // Triger user details & redirects
-  const history = useHistory();
+  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   // Bring in user recipes
@@ -134,7 +134,7 @@ const Profile = () => {
 
   useEffect(() => {
     if (!infoLoading && !userInfo) {
-      history.push("/");
+      navigate("/");
     } else {
       if (!user || success) {
         dispatch(getUserDetails());
