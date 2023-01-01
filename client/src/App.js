@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/layout/Footer";
 import ConfirmEmail from "./pages/ConfirmEmail";
-import EditRecipePage from "./pages/EditRecipePage";
+import EditRecipePage from "./pages/EditRecipe";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import ProfilePage from "./pages/ProfilePage";

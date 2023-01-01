@@ -1,0 +1,25 @@
+.main-header {
+	border-bottom: 1px solid $light-gray;
+
+	.container {
+		padding: 0.25rem;
+	}
+
+	.header__nav {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.header__logo {
+		@include set-background($light-color); 
+		font-family: 'Lobster', cursive;
+		font-size: 2.5em;
+		color: #ed5a6b;
+		letter-spacing: 0.3rem;
+
+		@media (max-width: 500px) {
+			font-size: 1.5rem;
+		  }
+	}
+}
