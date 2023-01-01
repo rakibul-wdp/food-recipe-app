@@ -15,7 +15,7 @@ const recipes = [
       "3 tablespoons lemon juice",
       "1 tablespoon butter, softened",
     ],
-    groups: ["grains", "vegetables", "protein foods"],
+    groups: ["Appetizer", "Main Dishes", "Soup-Salad"],
     steps: [
       "Bring the water to a boil in a saucepan; stir couscous into the boiling water and cook until couscous absorbs all the water and is cooked through, 10 to 15 minutes.",
       "Heat olive oil in a skillet over medium-low heat; cook and stir onion, shallot, and garlic in the hot oil until onion is lightly browned, 15 to 20 minutes. Stir raisins, sun-dried tomatoes, and almonds into onion mixture; cook and stir until heated through, about 5 minutes.",
@@ -24,7 +24,7 @@ const recipes = [
     name: "Quick Moroccan Couscous",
     description:
       "Tried to replicate couscous portion from the Moroccan chicken from Cheesecake Factory®.",
-    cuisine: "Moroccan",
+    cuisine: "Italian",
     level: "Intermediate",
     cookTime: 35,
     prepTime: 10,
@@ -57,7 +57,7 @@ const recipes = [
     name: "Couscous with Chickpeas and Carrots",
     description:
       "Because my Moroccan-style couscous cooks in four to five minutes, it's another side dish that's equally good for a simple supper or a large feast. To dress it up, add shredded carrots and a can of chickpeas.",
-    cuisine: "Moroccan",
+    cuisine: "Chinese",
     level: "Intermediate",
     cookTime: 0,
     prepTime: 0,
@@ -76,7 +76,7 @@ const recipes = [
       "2 tablespoons white sugar",
       "¼ teaspoon ground cinnamon (Optional",
     ],
-    groups: ["vegetables"],
+    groups: ["Desserts"],
     steps: [],
     name: "Carrot and Pear Sauce",
     description:
@@ -104,7 +104,7 @@ const recipes = [
       "½ teaspoon ground cumin",
       "1 (15 ounce can pinto beans",
     ],
-    groups: ["vegetables", "protein foods"],
+    groups: ["Desserts", "Drinks"],
     steps: [
       "Heat oil in a skillet over medium heat. Add potatoes and carrots; cook and stir until potatoes are tender, about 10 minutes.",
       "Stir cactus, chili powder, garlic, fenugreek seeds, coriander, and cumin into the potato mixture. Cook, stirring frequently, until cactus is softened, about 5 minutes. Add pinto beans; cook, stirring gently, until just heated through, about 3 minutes.",
@@ -130,7 +130,7 @@ const recipes = [
       "1 cup vegetable shortening",
       "salt to taste",
     ],
-    groups: ["vegetables", "protein foods"],
+    groups: ["Desserts", "Drinks"],
     steps: [
       "Place halved morel mushrooms in a large bowl; cover with cold, lightly salted water. Refrigerate mushrooms for about 5 minutes to loosen any dirt; pour off salted water, rinse, and repeat twice more. Crevices of the mushrooms may harbor tiny stones or even insects. Thoroughly rinse mushrooms a final time and allow to drain on paper towels.",
       "Place flour in a shallow bowl.",
@@ -162,7 +162,7 @@ const recipes = [
       "1 teaspoon crushed red pepper flakes (Optional",
       "36 clams in shell, scrubbed",
     ],
-    groups: ["vegetables", "protein foods", "grains"],
+    groups: ["Appetizer", "Main Dishes", "Soup-Salad"],
     steps: [
       "Melt butter in a large skillet over medium heat. Cook garlic in butter briefly. Stir in wine, and season with oregano, parsley, and red pepper flakes.",
       "Place clams in the wine mixture. Cover, and steam until all the clams have opened: discard any that do not open. Serve in soup bowls, and ladle broth generously over them.",
@@ -192,7 +192,7 @@ const recipes = [
       "1 teaspoon crushed red pepper flakes (Optional",
       "36 clams in shell, scrubbed",
     ],
-    groups: ["protein foods", "grains", "vegetables"],
+    groups: ["Appetizer", "Main Dishes", "Soup-Salad"],
     steps: [
       "Melt butter in a large skillet over medium heat. Cook garlic in butter briefly. Stir in wine, and season with oregano, parsley, and red pepper flakes.",
       "Place clams in the wine mixture. Cover, and steam until all the clams have opened: discard any that do not open. Serve in soup bowls, and ladle broth generously over them.",
@@ -219,7 +219,7 @@ const recipes = [
       "¼ teaspoon toasted sesame oil",
       "¼ teaspoon ground ginger",
     ],
-    groups: ["vegetables"],
+    groups: ["Desserts"],
     steps: [
       "Beat mirin, champagne vinegar, sunflower seed oil, hazelnut oil, sugar, sesame oil, and ground ginger together in a bowl until smooth.",
       "Let dressing sit at room temperature until the flavors blend, at least 30 minutes.",
@@ -227,7 +227,7 @@ const recipes = [
     name: "Japanese Dressing",
     description:
       "This is a very light dressing found in some Japanese restaurants.\n\n",
-    cuisine: "Moroccan",
+    cuisine: "Chinese",
     level: "Easy",
     cookTime: 30,
     prepTime: 5,
@@ -245,7 +245,7 @@ const recipes = [
       "1 teaspoon soy sauce",
       "1 teaspoon white sugar",
     ],
-    groups: ["grains", "protein foods"],
+    groups: ["Soup-Salad", "Desserts"],
     steps: [
       "Mix eggs, water, soy sauce, and sugar in a bowl with a fork until combined.",
       "Heat a skillet over medium heat. Pour egg mixture into skillet and stir with a fork. Cook until omelet begins to set and liquid is no longer visible, 3 to 5 minutes. Fold in half twice.",
@@ -272,7 +272,7 @@ const recipes = [
       "2 (15 ounce cans cream-style corn",
       "4 cups mashed potatoes",
     ],
-    groups: ["fruits", "vegetables", "protein foods", "grains"],
+    groups: ["Appetizer", "Main Dishes", "Soup-Salad", "Desserts"],
     steps: [
       "Preheat oven to 375 degrees F (190 degrees C. Grease a 2-quart casserole with butter.",
       "Heat canola oil in a skillet over medium heat; cook and stir onion until translucent, about 5 minutes. Stir ground beef into onion, season with salt and black pepper, and cook ground beef mixture until browned and crumbly, about 10 more minutes. Drain excess grease.",
@@ -301,7 +301,7 @@ const recipes = [
       "3 chipotle peppers in adobo sauce",
       "1 cup heavy whipping cream",
     ],
-    groups: ["protein foods", "vegetables"],
+    groups: ["Desserts", "Drinks"],
     steps: [
       "Season chicken with garlic powder, salt, and pepper.",
       "Heat oil in a skillet over medium to high heat. Saute chicken in the hot pan until browned, about 5 to 8 minutes per side.",
@@ -336,7 +336,7 @@ const recipes = [
       "2 cloves fresh garlic, minced",
       "tortilla chips",
     ],
-    groups: ["fruits", "dairy"],
+    groups: ["Desserts", "Drinks"],
     steps: [
       "Place shrimp in a bowl (You may either coarsely chop the shrimp, or leave them whole, depending on your preference. Add lemon, covering shrimp completely. Cover, and refrigerate for 30 minutes, or until opaque and slightly firm.",
       "Add tomatoes, onions, cucumber, radishes, and garlic; toss to combine. Gradually add cilantro and jalapenos to desired taste (jalapeno will grow stronger while marinating. Stir in tomato and clam juices to desired consistency. Cover, and refrigerate for 1 hour. Serve chilled with tortilla chips.",
@@ -362,7 +362,7 @@ const recipes = [
       "1 (12 fluid ounce can evaporated milk",
       "1 tablespoon vanilla extract",
     ],
-    groups: ["dairy", "fruits"],
+    groups: ["Desserts", "Drinks"],
     steps: [
       "Preheat oven to 350 degrees F (175 degrees C.",
       "In a medium saucepan over medium-low heat, melt sugar until liquefied and golden in color. Carefully pour hot syrup into a 9 inch round glass baking dish, turning the dish to evenly coat the bottom and sides. Set aside.",
@@ -395,7 +395,7 @@ const recipes = [
       "2 cups water",
       "2 tablespoons chopped fresh cilantro",
     ],
-    groups: ["protein foods", "vegetables", "grains"],
+    groups: ["Appetizer", "Main Dishes", "Soup-Salad"],
     steps: [
       "In a skillet, over medium-high heat, add oil and ground beef and fry, stirring occasionally until browned.",
       "Stir in onions and green bell pepper, and continue to fry another 2 to 3 minutes until lightly brown.",
@@ -429,7 +429,7 @@ const recipes = [
       "⅛ teaspoon freshly ground black pepper",
       "1 cup shredded Swiss cheese",
     ],
-    groups: ["grains", "protein foods", "dairy"],
+    groups: ["Appetizer", "Main Dishes", "Soup-Salad"],
     steps: [
       "Add the butter and oil to a large saute pan over medium high heat. Add the onions to the pan and saute until lightly browned, about 20 to 25 minutes, stirring occasionally. Add the wine to the pan and reduce for 2 to 3 minutes.",
       "Add the beef base, parsley and black pepper to the pan and stir. Remove the pan from the heat and let cool.",
@@ -462,7 +462,7 @@ const recipes = [
       "2 cups corn flakes cereal, crushed",
       "4 slices bread, toasted",
     ],
-    groups: ["fruits", "grains"],
+    groups: ["Appetizer", "Main Dishes"],
     steps: [
       "Preheat oven to 375 degrees F (190 degrees C.",
       "Beat eggs, milk, sugar, vanilla extract, and cinnamon in a bowl; dip toast into egg mixture and press into crushed corn flakes until coated. Arrange coated toast in a single layer in a baking dish.",
@@ -492,7 +492,7 @@ const recipes = [
       "1 teaspoon chopped fresh fenugreek leaves",
       "1 teaspoon chili powder",
     ],
-    groups: ["vegetables", "fruits"],
+    groups: ["Appetizer", "Main Dishes"],
     steps: [
       "In a medium bowl, stir onion and ketchup until onion is thinly and evenly coated. Mix in the lemon juice. Season with sugar, cilantro, fenugreek and chili powder, and mix thoroughly. Cover, and chill for 24 hours. This allows the lemon juice to neutralize the onion flavor slightly.",
     ],
@@ -519,7 +519,7 @@ const recipes = [
       "2 teaspoons white sugar",
       "1 pinch salt",
     ],
-    groups: ["dairy", "fruits"],
+    groups: ["Desserts", "Drinks"],
     steps: [
       "In a blender, blend the yogurt, ice, water, sugar and salt until mixture becomes frothy. Pour mixture over ice cubes in tall glasses.",
     ],
@@ -544,7 +544,7 @@ const recipes = [
       "2 teaspoons ground black pepper",
       "2 teaspoons curry powder",
     ],
-    groups: ["protein foods", "vegetables", "grains"],
+    groups: ["Main Dishes", "Soup-Salad", "Desserts"],
     steps: [
       "Combine Teriyaki Marinade and Sauce, garlic, pepper, and curry powder in a large bowl.",
       "Marinade chicken in a zipper-lock bag with onions and bell peppers, for about 4 hours to overnight.",
@@ -578,7 +578,7 @@ const recipes = [
       "1 tablespoon soy sauce",
       "¼ cup chopped fresh cilantro for garnish",
     ],
-    groups: ["protein foods", "grains", "vegetables"],
+    groups: ["Main Dishes", "Soup-Salad", "Desserts"],
     steps: [
       "Bring water to a boil in a pot.",
       "Place rice noodles in a large bowl. Pour boiling water over noodles and allow to soak until softened, about 20 minutes. Drain.",
@@ -610,7 +610,7 @@ const recipes = [
       "½ teaspoon ground black pepper",
       "1 tablespoon olive oil",
     ],
-    groups: ["protein foods", "vegetables"],
+    groups: ["Main Dishes", "Soup-Salad"],
     steps: [
       "Tear up bread slices into the bowl of a food processor; process into fine crumbs. Add ground lamb and egg; process until blended. Add parsley, garlic, cumin, mint, allspice, salt, and pepper; process until evenly combined.",
       "Roll lamb mixture into small meatballs.",
@@ -637,7 +637,7 @@ const recipes = [
       "2 ½ tablespoons finely ground Turkish-style coffee",
       "5 teaspoons white sugar, or to taste",
     ],
-    groups: ["dairy"],
+    groups: ["Main Dishes"],
     steps: [
       "Stir milk, coffee, and sugar together in a saucepan over medium heat until the sugar dissolves. Cook until the liquid begins to bubble. Cook another 30 seconds; remove from heat. Serve hot.",
     ],

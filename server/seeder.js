@@ -9,12 +9,13 @@ import Review from "./models/Review.js";
 import User from "./models/User.js";
 
 // Connect to DB
+mongoose.set("strictQuery", false);
 mongoose.connect(process.env.MONGO_URI);
 
 // Read data
-import recipes from "./data/recipes.js";
-import reviews from "./data/reviews.js";
-import users from "./data/users.js";
+import recipes from './data/recipes';
+import reviews from './data/reviews';
+import users from './data/users';
 
 // Import into DB
 async function importData() {

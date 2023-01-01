@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
+mongoose.set("strictQuery", false);
+
 const connectDB = async () => {
   try {
     const response = await mongoose.connect(process.env.MONGO_URI, {
-      useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useFindAndModify: false,
     });
 
     console.log(`MongoDB Connected ${response.connection.host}`);

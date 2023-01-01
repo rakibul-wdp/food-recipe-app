@@ -58,7 +58,7 @@ const recipeSchema = mongoose.Schema(
       ],
     },
     groups: {
-      type: String,
+      type: [String],
       required: [true, "Please add an appropriate group for you recipe"],
       enum: ["Appetizer", "Main Dishes", "Soup-Salad", "Desserts", "Drinks"],
     },
