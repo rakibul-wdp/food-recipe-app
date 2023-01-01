@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Footer from "./components/layout/Footer";
+import ConfirmEmail from "./pages/ConfirmEmail";
+import EditRecipePage from "./pages/EditRecipePage";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import ProfilePage from "./pages/ProfilePage";
+import RecipePage from "./pages/RecipePage";
+import SearchPage from "./pages/SearchPage";
+import SignupPage from "./pages/SignupPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route exact path="/" component={HomePage} />
+      <Route path="/login" component={LoginPage} />
+      <Route path="/signup" component={SignupPage} />
+      <Route exact path="/recipe/:id" component={RecipePage} />
+      <Route path="/recipe/:recipeId/edit" component={EditRecipePage} />
+      <Route path="/search/:term?/:page?" component={SearchPage} />
+      <Route path="/profile/:username/:recipeId?" component={ProfilePage} />
+      <Route path="/confirmemail/:token" component={ConfirmEmail} />
+      <Footer />
+    </Router>
   );
 }
 
