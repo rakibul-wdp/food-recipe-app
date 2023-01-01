@@ -3,23 +3,23 @@ const Groups = () => {
   const groups = [
     {
       name: "Appetizer",
-      img: "/images/groups/r4.jpg",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672572309/samples/groups/r4_yfp1vy.jpg",
     },
     {
       name: "Main Dishes",
-      img: "/images/groups/photo.jpeg",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672572309/samples/groups/photo_xlz8ct.jpg",
     },
     {
       name: "Soup-Salad",
-      img: "/images/groups/photo-1.jpeg",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672572308/samples/groups/photo-1_bmvnwa.jpg",
     },
     {
       name: "Desserts",
-      img: "/images/groups/photo-2.jpeg",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672572308/samples/groups/photo-2_cu4g0y.jpg",
     },
     {
       name: "Drinks",
-      img: "/images/groups/bg7.jpg",
+      img: "https://res.cloudinary.com/deoxba2ty/image/upload/v1672572309/samples/groups/bg7_khmh2g.jpg",
     },
   ];
   return (
