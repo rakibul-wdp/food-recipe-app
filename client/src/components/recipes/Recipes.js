@@ -88,7 +88,7 @@ const Recipes = () => {
         )}
       </section>
       <div className="text-center">
-        <Link to="/search" className="btn btn-lg btn-info rounded">
+        <Link to="/search" className="btn btn-lg btn-primary rounded">
           See more
         </Link>
       </div>
