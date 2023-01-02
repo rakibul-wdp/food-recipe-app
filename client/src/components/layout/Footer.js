@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="footer__developer">
           <p>
             Foodie Guide is a web application developed by{" "}
-            <a href="mailto:nusrathjahan58@gmail.com">
+            <a href="mailto:abdur258rahman258@gmail.com">
               <strong>Md. Rakibul Islam</strong>
             </a>
           </p>
